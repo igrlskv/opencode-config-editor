@@ -1,9 +1,12 @@
 # dependencies (bun install)
 node_modules
 
-# build output (rebuild with: bun install && bun run build)
+# build output -- EXCEPT the built bundle: it is committed on purpose so that
+# "Download ZIP" from GitHub yields a working plugin without any build step.
+# Rebuild locally with: bun install && bun run build
 out
-dist
+dist/*
+!dist/gui-experimental.cjs
 *.tgz
 
 # code coverage
