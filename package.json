@@ -1,6 +1,6 @@
 {
   "name": "opencode-config-editor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "OpenCode Desktop GUI plugin: view and edit opencode config, search provider models, toggle models in config, validate",
   "type": "module",
   "private": true,
